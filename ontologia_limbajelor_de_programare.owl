@@ -1,0 +1,2336 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#"
+     xml:base="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#BazataPeContrangeri -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#BazataPeContrangeri">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Declarativ"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#BazataPeEvenimente -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#BazataPeEvenimente">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Paradigma"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Paradigma"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Dataflow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Dataflow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Declarativ"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Declarativ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Declarativ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Paradigma"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Dinamic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Dinamic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Paradigma"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Functional -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Functional">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Declarativ"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramare -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramare"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareCompilat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareCompilat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramare"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareConcurent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareConcurent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramare"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramare"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareIntepretat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareIntepretat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramare"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareMarkup -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareMarkup">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramare"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareOrientatPeObiecte -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareOrientatPeObiecte">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramare"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramarePeBazaDeLogica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramarePeBazaDeLogica">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramare"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareProcedural -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareProcedural">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramare"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareScriptat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareScriptat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramare"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Logic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Logic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Declarativ"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#OrientataPeAgenti -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#OrientataPeAgenti">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Paradigma"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#OrientataPeVectori -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#OrientataPeVectori">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Paradigma"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Paradigma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Paradigma"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#ABCL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#ABCL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareConcurent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#ALF -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#ALF">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramarePeBazaDeLogica"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#ALGOL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#ALGOL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareCompilat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#APL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#APL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareIntepretat"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#OrientataPeVectori"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#ATS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#ATS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#A_Sharp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#A_Sharp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Ada -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Ada">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareCompilat"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareConcurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#OrientataPeVectori"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Afnix -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Afnix">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareConcurent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Agda -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Agda">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Agora -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Agora">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareOrientatPeObiecte"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Alef -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Alef">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareConcurent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Allegro_Common_Lisp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Allegro_Common_Lisp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#AmbientTalk -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#AmbientTalk">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareConcurent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Analytica -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Analytica">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#OrientataPeVectori"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#AppleScript -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#AppleScript">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareScriptat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Arc -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Arc">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Atom -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Atom">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Autolt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Autolt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareIntepretat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Awk -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Awk">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareScriptat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Axum -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Axum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareConcurent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#BASIC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#BASIC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#OrientataPeVectori"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#BBN_LISP -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#BBN_LISP">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#BETA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#BETA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareOrientatPeObiecte"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#BeanShell -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#BeanShell">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareScriptat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Bliss -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Bliss">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareProcedural"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#C -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#C">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareCompilat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#CLEO -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#CLEO">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareCompilat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#CLIST -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#CLIST">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareProcedural"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#CMS_Pipelines -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#CMS_Pipelines">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#COBOL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#COBOL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareCompilat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#COWSEL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#COWSEL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#CS-4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#CS-4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareConcurent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#C_Sharp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#C_Sharp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareCompilat"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Cayenne -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Cayenne">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Cecil -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Cecil">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareOrientatPeObiecte"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Chapel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Chapel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareConcurent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Charity -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Charity">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#ChucK -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#ChucK">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareProcedural"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Ciao -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Ciao">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Cilk -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Cilk">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareConcurent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Claire -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Claire">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Clean -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Clean">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Clojure -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Clojure">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Cobra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Cobra">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareCompilat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#ColdFusion -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#ColdFusion">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareScriptat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Common_Lisp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Common_Lisp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Component_Pascal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Component_Pascal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareProcedural"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurrent_Euclid -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurrent_Euclid">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareConcurent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurrent_ML -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurrent_ML">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareConcurent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurrent_Pascal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurrent_Pascal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareConcurent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Coq -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Coq">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Cuneiform -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Cuneiform">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Curl -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Curl">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareMarkup"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Curry -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Curry">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareConcurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Cω -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Cω">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareConcurent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#D -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#D">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareCompilat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#DASL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#DASL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareCompilat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#DIBOL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#DIBOL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareCompilat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Dart -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Dart">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareConcurent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Dependent_ML -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Dependent_ML">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#E -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#E">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareConcurent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#EXSLT -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#EXSLT">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Ease -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Ease">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareConcurent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Eiffel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Eiffel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareIntepretat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Elm -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Elm">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Epigram -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Epigram">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Erlang -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Erlang">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareConcurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Escher -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Escher">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#EuLisp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#EuLisp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#F-Script -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#F-Script">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareScriptat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#F_Sharp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#F_Sharp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Falcon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Falcon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Formula -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Formula">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Forth -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Forth">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareIntepretat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Fortran -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Fortran">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareCompilat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Fortress -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Fortress">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareConcurent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Frege -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Frege">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Frenetic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Frenetic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Fril -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Fril">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramarePeBazaDeLogica"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Frink -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Frink">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareIntepretat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#GOAL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#GOAL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#OrientataPeAgenti"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Game_Maker_Language -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Game_Maker_Language">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareIntepretat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Game_Oriented_Assembly_Lisp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Game_Oriented_Assembly_Lisp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Go -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Go">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareConcurent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Gofer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Gofer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Grammatical_Framework -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Grammatical_Framework">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#HTML -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#HTML">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareMarkup"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Halide -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Halide">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Haskell -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Haskell">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#High_Performance_Fortran -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#High_Performance_Fortran">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareConcurent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Hope -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Hope">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Hume -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Hume">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#HyperTalk -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#HyperTalk">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareProcedural"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#ICI -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#ICI">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareIntepretat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#IO -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#IO">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareOrientatPeObiecte"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#ISWIM -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#ISWIM">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Id -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Id">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Idris -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Idris">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Intel_Parallel_Building_Blocks -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Intel_Parallel_Building_Blocks">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareConcurent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Interlisp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Interlisp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#J -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#J">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareIntepretat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#JADE -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#JADE">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareConcurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#OrientataPeAgenti"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#JASS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#JASS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareScriptat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#JOVIAL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#JOVIAL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareCompilat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#JSONiq -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#JSONiq">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Janus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Janus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareConcurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramarePeBazaDeLogica"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Jason -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Jason">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#OrientataPeAgenti"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Java -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Java">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareConcurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareOrientatPeObiecte"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#JavaScript -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#JavaScript">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#JoCaml -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#JoCaml">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Joule -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Joule">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareConcurent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Joy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Joy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Joyce -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Joyce">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Jq -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Jq">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Julia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Julia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Kent_Recursive_Calculator -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Kent_Recursive_Calculator">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Kite -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Kite">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#L -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#L">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Lava -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Lava">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareOrientatPeObiecte"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Lazy_ML -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Lazy_ML">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Leda -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Leda">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramarePeBazaDeLogica"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Limbo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Limbo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareConcurent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Linda -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Linda">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Lisaac -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Lisaac">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareOrientatPeObiecte"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Lisp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Lisp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareIntepretat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Logo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Logo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Lout -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Lout">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Lua -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Lua">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareIntepretat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Lucid -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Lucid">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Lynx -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Lynx">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#M -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#M">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareIntepretat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#MATLAB -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#MATLAB">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareProcedural"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#OrientataPeVectori"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#MDL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#MDL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#ML -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#ML">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#MOO -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#MOO">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareOrientatPeObiecte"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#MPD -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#MPD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Macintosh_Common_Lisp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Macintosh_Common_Lisp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Magma -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Magma">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Maple -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Maple">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Mata -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Mata">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#OrientataPeVectori"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Matita -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Matita">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Maya_Embedded_Language -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Maya_Embedded_Language">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareScriptat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#MediaWiki -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#MediaWiki">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Mercury -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Mercury">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Mesa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Mesa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#MexScript -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#MexScript">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Miranda -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Miranda">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Modula-2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Modula-2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareProcedural"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Mondrian -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Mondrian">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareScriptat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Moto -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Moto">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareOrientatPeObiecte"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#MultiLisp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#MultiLisp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#NESL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#NESL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#NIL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#NIL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#NPL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#NPL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Nemerle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Nemerle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#NewLISP -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#NewLISP">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Newsqueak -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Newsqueak"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Nim -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Nim">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#OBJ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#OBJ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#OBJ2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#OBJ2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#OCaml -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#OCaml">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#OPAL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#OPAL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#OPS5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#OPS5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Oberon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Oberon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareProcedural"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Object-Z -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Object-Z">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareOrientatPeObiecte"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Objective-C -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Objective-C">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareCompilat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Obliq -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Obliq">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareOrientatPeObiecte"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Occam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Occam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareProcedural"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Opa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Opa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Opal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Opal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Orc -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Orc">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Orwell -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Orwell">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Owl_Lisp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Owl_Lisp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Oxygene -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Oxygene">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareOrientatPeObiecte"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Oz -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Oz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramarePeBazaDeLogica"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#PAL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#PAL"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#PCASTL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#PCASTL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareIntepretat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#PHP -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#PHP">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareScriptat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#PLEX -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#PLEX">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#POP-2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#POP-2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#ParaSail -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#ParaSail">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Pascal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Pascal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareIntepretat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Perl -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Perl">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareIntepretat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Pict -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Pict">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareConcurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Pixie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Pixie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Pliant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Pliant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareOrientatPeObiecte"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Poplog -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Poplog">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramarePeBazaDeLogica"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Portable_Standard_Lisp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Portable_Standard_Lisp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#PostScript -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#PostScript">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareIntepretat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Prograph -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Prograph">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareOrientatPeObiecte"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Prolog -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Prolog">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramarePeBazaDeLogica"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Pure -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Pure">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Python -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Python">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareIntepretat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Q -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Q">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Qalb -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Qalb">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Quark_Framework -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Quark_Framework">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#R -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#R">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#OrientataPeVectori"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#REBOL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#REBOL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareOrientatPeObiecte"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#REXX -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#REXX">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareIntepretat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#ROOP -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#ROOP">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramarePeBazaDeLogica"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#RPG -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#RPG">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareProcedural"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Racket -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Racket">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Rapira -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Rapira">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareProcedural"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Rebol -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Rebol">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Red -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Red">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Refal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Refal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Renjin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Renjin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Revolution -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Revolution">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareScriptat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Ring -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Ring">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Ruby -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Ruby">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareIntepretat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Rust -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Rust">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareConcurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#S-Lang -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#S-Lang">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareIntepretat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#SALSA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#SALSA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareConcurent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#SARL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#SARL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#OrientataPeAgenti"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#SASL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#SASL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#SCOOP -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#SCOOP">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#SGML -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#SGML">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareMarkup"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#SISAL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#SISAL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#SMALL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#SMALL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareCompilat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#SPARK -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#SPARK">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#SR -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#SR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareConcurent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Scala -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Scala">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareOrientatPeObiecte"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Self -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Self">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareOrientatPeObiecte"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#SequenceL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#SequenceL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Slate -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Slate">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareOrientatPeObiecte"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Smalltalk -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Smalltalk">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareCompilat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Spin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Spin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareIntepretat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Standard_ML -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Standard_ML">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Strand -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Strand">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#SuperPascal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#SuperPascal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#TXL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#TXL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Tcl -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Tcl">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareScriptat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Timber -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Timber">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Turing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Turing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareCompilat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Umple -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Umple">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Unlambda -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Unlambda">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Ur -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Ur">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#VBScript -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#VBScript">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareScriptat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Visual_Basic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Visual_Basic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareCompilat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Visual_FoxPro -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Visual_FoxPro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareCompilat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Windows_PowerShell -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Windows_PowerShell">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareScriptat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Wolfram -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Wolfram">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#X10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#X10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#XC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#XC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#XHTML -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#XHTML">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareMarkup"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#XL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#XL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareCompilat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#XML -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#XML">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareMarkup"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#XMTC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#XMTC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#XOTcl -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#XOTcl">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareOrientatPeObiecte"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#XQuery -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#XQuery">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#XSLT -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#XSLT">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#ZPL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#ZPL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#rasql -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#rasql">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#OrientataPeVectori"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#*Lisp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#*Lisp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#C* -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#C*">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareConcurent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#C++ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#C++">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareCompilat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#F* -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#F*">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareFuntional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Go! -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Go!">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#Concurent"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareConcurent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#PL/C -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#PL/C">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareProcedural"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#PL/I -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#PL/I">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zerob/ontologies/2018/2/untitled-ontology-5#LimbajDeProgramareProcedural"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
